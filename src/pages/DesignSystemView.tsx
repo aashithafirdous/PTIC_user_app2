@@ -78,33 +78,56 @@ export const DesignSystemView: React.FC = () => {
         </div>
       </section>
 
-      {/* 2. Typography (Poppins) */}
+      {/* 2. Typography Specification */}
       <section className="space-y-4">
-        <SectionHeader title="2. Typography — Google Font 'Poppins'" />
-        <Card className="space-y-4">
-          <div className="pb-3 border-b border-ptic-border">
-            <span className="text-[10px] font-semibold text-ptic-secondary uppercase tracking-wider">H1 — Page Heading</span>
-            <h1 className="text-2xl font-bold text-ptic-dark">
-              Poultry Technology & Innovation Council
+        <SectionHeader title="2. Typography — Serif Headings & Geometric Sans Body/UI" />
+        <Card className="space-y-5">
+          <div className="pb-4 border-b border-ptic-border">
+            <span className="text-[10px] font-bold text-ptic-secondary uppercase tracking-wider font-sans block mb-1">
+              Headings Font (Serif: Playfair Display / Cormorant Garamond)
+            </span>
+            <h1 className="text-3xl sm:text-4xl font-bold text-ptic-dark font-serif tracking-tight leading-tight">
+              Timeless Elegance on Your Wrist
             </h1>
-          </div>
-          <div className="pb-3 border-b border-ptic-border">
-            <span className="text-[10px] font-semibold text-ptic-secondary uppercase tracking-wider">H2 — Section Heading</span>
-            <h2 className="text-lg font-semibold text-ptic-dark">
-              Connecting 500+ Poultry Stakeholders Across Tamil Nadu
+            <h2 className="text-xl sm:text-2xl font-semibold text-ptic-secondary font-serif mt-2">
+              The Keys to Stress-Free Property Ownership · New Arrival
             </h2>
-          </div>
-          <div className="pb-3 border-b border-ptic-border">
-            <span className="text-[10px] font-semibold text-ptic-secondary uppercase tracking-wider">Body Text — Regular</span>
-            <p className="text-sm text-ptic-dark/80 max-w-2xl leading-relaxed">
-              Phase 1 creates a light, calm, trustworthy, and modern web application shell. The UI uses spacious layouts, clean cards, subtle shadows, and deep navy headings without visual clutter.
+            <p className="text-xs text-slate-500 mt-1 font-sans">
+              Refined serif typeface utilized for elegant headings, editorial banners, hero titles, and prestigious section leaders.
             </p>
           </div>
-          <div>
-            <span className="text-[10px] font-semibold text-ptic-secondary uppercase tracking-wider">Caption / Microcopy</span>
-            <p className="text-xs text-ptic-textMuted">
-              Last updated: 23 September 2026 · Verified by PTIC Advisory Secretariat
+
+          <div className="pb-4 border-b border-ptic-border">
+            <span className="text-[10px] font-bold text-ptic-secondary uppercase tracking-wider font-sans block mb-1">
+              Body & Product Descriptions (Sans-Serif: Plus Jakarta Sans / Inter / Poppins)
+            </span>
+            <p className="text-sm text-ptic-dark/80 max-w-3xl leading-relaxed font-sans">
+              Navigation links, product descriptions, prices, and button text use a clean, geometric sans-serif font like Plus Jakarta Sans, Inter, or Poppins across the entire project for crisp clarity, high legibility, and modern aesthetic balance.
             </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-1">
+            <div className="p-3 rounded-xl bg-slate-50 dark:bg-[#102640] border border-slate-200/80 dark:border-[#294966]">
+              <span className="text-[10px] font-bold text-slate-400 dark:text-[#B3CFE5] uppercase tracking-wider block font-sans">Price Display</span>
+              <span className="text-xl font-bold text-[#135E69] dark:text-[#5ce0d2] font-sans mt-0.5 block">₹ 4,500.00</span>
+              <span className="text-[11px] text-slate-500 dark:text-[#B3CFE5] font-sans">Clean geometric numerals</span>
+            </div>
+
+            <div className="p-3 rounded-xl bg-slate-50 dark:bg-[#102640] border border-slate-200/80 dark:border-[#294966]">
+              <span className="text-[10px] font-bold text-slate-400 dark:text-[#B3CFE5] uppercase tracking-wider block font-sans">Navigation & UI</span>
+              <span className="text-sm font-semibold text-slate-800 dark:text-[#F6FAFD] font-sans mt-1 block">Home · Directory · E-Mart</span>
+              <span className="text-[11px] text-slate-500 dark:text-[#B3CFE5] font-sans">Inter / Plus Jakarta Sans</span>
+            </div>
+
+            <div className="p-3 rounded-xl bg-slate-50 dark:bg-[#102640] border border-slate-200/80 dark:border-[#294966]">
+              <span className="text-[10px] font-bold text-slate-400 dark:text-[#B3CFE5] uppercase tracking-wider block font-sans">Button Text</span>
+              <div className="mt-1">
+                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-[#135E69] text-white font-sans inline-block">
+                  Send Enquiry
+                </span>
+              </div>
+              <span className="text-[11px] text-slate-500 dark:text-[#B3CFE5] font-sans mt-1 block">Standardized geometric pill</span>
+            </div>
           </div>
         </Card>
       </section>

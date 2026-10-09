@@ -854,7 +854,7 @@ Support Desk: support@poultrytech.in | +91 98421 54321
               {/* Total Row (Image 2 Style) */}
               <div className="flex items-baseline justify-between py-1 text-left">
                 <span className="font-bold text-base text-slate-900 dark:text-[#F6FAFD]">Total</span>
-                <span className="text-xl sm:text-2xl font-black text-slate-900 dark:text-[#F6FAFD] font-display">
+                <span className="text-xl sm:text-2xl font-black text-slate-900 dark:text-[#F6FAFD] font-sans">
                   ₹ {totalAmount.toFixed(2)}
                 </span>
               </div>
@@ -909,7 +909,7 @@ Support Desk: support@poultrytech.in | +91 98421 54321
                   {/* Price Summary Card */}
                   <div className="bg-white rounded-2xl p-4 text-slate-900 shadow-md">
                     <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Price Summary</p>
-                    <div className="text-2xl sm:text-3xl font-black text-slate-900 font-display mt-0.5">
+                    <div className="text-2xl sm:text-3xl font-black text-slate-900 font-sans mt-0.5">
                       ₹{totalAmount.toFixed(2)}
                     </div>
                   </div>

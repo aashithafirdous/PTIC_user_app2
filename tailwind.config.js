@@ -30,8 +30,11 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', 'Poppins', 'system-ui', 'sans-serif'],
-        display: ['"Plus Jakarta Sans"', 'Poppins', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'Inter', 'Poppins', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+        serif: ['"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+        display: ['"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'serif'],
+        heading: ['"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'serif'],
+        body: ['"Plus Jakarta Sans"', 'Inter', 'Poppins', 'system-ui', 'sans-serif'],
         metropolis: ['Metropolis', 'system-ui', 'sans-serif'],
       },
       borderRadius: {

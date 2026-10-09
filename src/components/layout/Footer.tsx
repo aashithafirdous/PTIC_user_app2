@@ -23,7 +23,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Column 1: Brand & Tagline (5 cols on lg) */}
           <div className="lg:col-span-5 space-y-3.5 text-left">
             <div className="flex items-center gap-3">
-              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#135E69] text-white font-extrabold text-sm tracking-wider font-display shadow-xs">
+              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#135E69] text-white font-extrabold text-sm tracking-wider font-sans shadow-xs">
                 PTIC
               </div>
               <div className="text-left">

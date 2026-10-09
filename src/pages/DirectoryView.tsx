@@ -337,7 +337,7 @@ export const DirectoryView: React.FC<DirectoryViewProps> = ({ onNavigate, onOpen
                 className="w-7 h-7 rounded-full ring-2 ring-white object-cover shadow-xs"
               />
             </div>
-            <div className="text-4xl font-extrabold text-slate-900 tracking-tight font-display">
+            <div className="text-4xl font-extrabold text-slate-900 tracking-tight font-sans">
               767
             </div>
             <div className="text-xs font-semibold text-slate-700 mt-1">

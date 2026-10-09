@@ -154,7 +154,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center gap-2.5 shrink-0 group cursor-pointer focus:outline-none"
             title="PTIC Platform Home"
           >
-            <div className="flex h-10 w-10 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl bg-[#135E69] text-white shadow-sm font-extrabold text-sm sm:text-base tracking-wider font-display transition-transform group-hover:scale-105 active:scale-95">
+            <div className="flex h-10 w-10 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl bg-[#135E69] text-white shadow-sm font-extrabold text-sm sm:text-base tracking-wider font-sans transition-transform group-hover:scale-105 active:scale-95">
               PTIC
             </div>
             <div className="hidden lg:block text-left">

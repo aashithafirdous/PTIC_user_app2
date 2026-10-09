@@ -261,7 +261,7 @@ export const EMartView: React.FC = () => {
                 <span className="text-[10px] text-slate-500 dark:text-[#B3CFE5] uppercase font-bold tracking-wider block">
                   ESTIMATED COMMERCIAL PRICE
                 </span>
-                <span className="text-2xl sm:text-3xl font-black text-[#135E69] dark:text-[#5ce0d2] mt-0.5 block font-display">
+                <span className="text-2xl sm:text-3xl font-black text-[#135E69] dark:text-[#5ce0d2] mt-0.5 block font-sans">
                   {activeItem.price || 'Direct Council Inquiry'}
                 </span>
               </div>
